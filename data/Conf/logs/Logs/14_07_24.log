@@ -1,0 +1,1853 @@
+[ 2014-07-24T16:47:40+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.004000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.028002s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.139008s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.140008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.177011s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.178011s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.179011s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.180011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.180011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:50:04+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003001s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.002001s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.054003s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 616 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 616 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 618 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 620 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 620 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 622 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 630 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 646 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 646 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 656 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 664 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 678 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 692 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 706 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 716 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 776 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 790 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 802 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 822 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 848 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 854 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 860 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 866 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 892 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 906 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 920 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 952 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 958 行.
+NOTIC: [8] Undefined variable: card D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\b459f85aa187252f7606d092b0e8d9dd.php 第 964 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.091005s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.092006s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.093006s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.093006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.094006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:50:44+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.006000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.005001s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001001s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.110006s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.111007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.145008s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.146009s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.147009s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.148009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.148009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:50:46+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.004001s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.105006s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.106006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.143008s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.144009s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.144009s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.145009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.146009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:50:48+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.004000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.002000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.072004s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.107006s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.108006s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.108006s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.109006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.109006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:51:06+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.004000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.005001s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.005000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.005000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.117007s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.118007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.163009s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.165009s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.166009s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.167009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.168009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-07-24T16:51:08+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.008001s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001001s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.004001s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.097006s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.098006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.147009s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.148009s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.149009s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.150009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.151009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-24T16:53:32+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Upyun&a=upload&token=ropkml1405384695&width=700
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004001s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant UNYUN_BUCKET - assumed 'UNYUN_BUCKET' D:\xampp\htdocs\wei\weiwin\Lib\Action\User\UpyunAction.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant UNYUN_FORM_API_SECRET - assumed 'UNYUN_FORM_API_SECRET' D:\xampp\htdocs\wei\weiwin\Lib\Action\User\UpyunAction.class.php 第 15 行.
+NOTIC: [8] Use of undefined constant UNYUN_DOMAIN - assumed 'UNYUN_DOMAIN' D:\xampp\htdocs\wei\weiwin\Lib\Action\User\UpyunAction.class.php 第 16 行.
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.078005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: apikey D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\98b8848b68e15d866cd61a62155341bf.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.079005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.121007s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.121007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.122007s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.122007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.123007s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:56:08+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.006000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.004000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.002000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.005001s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.379021s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.380021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.420024s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.421024s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.422024s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.423024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.424024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:57:13+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.005000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.005000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.074004s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.075004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.110006s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.111006s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.111006s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.112006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.113006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-24T16:57:39+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003001s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.055003s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.089005s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.090005s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.091005s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.091005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.092005s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:58:15+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.006000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003001s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.004001s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.005000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.128008s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.129008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.170010s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.172010s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.173010s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.174010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.175010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:58:42+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=index&token=ropkml1405384695
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.007001s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.006000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\weiwin\Lib\Action\User\Member_cardAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE cardid=30 AND token='ropkml1405384695' AND wecha_id!='' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.139008s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 91 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 92 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.140008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.175010s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.176010s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.178010s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.178010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.179010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:58:49+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=integral&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.004000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.005001s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.002000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_integral` WHERE ( `token` = 'ropkml1405384695' ) AND ( `cardid` = 30 ) ORDER BY id desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.091005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.092006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.135008s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.135008s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.136008s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.136008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.137008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:58:54+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=index&token=ropkml1405384695
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003001s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\weiwin\Lib\Action\User\Member_cardAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.002000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE cardid=30 AND token='ropkml1405384695' AND wecha_id!='' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.066004s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 91 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 92 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.097006s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.098006s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.099006s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.099006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.100006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-24T16:58:57+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=members&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.004000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE ( `cardid` = 30 ) AND ( `token` = 'ropkml1405384695' ) AND ( `wecha_id` <> '' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_create` WHERE ( `cardid` = 30 ) AND ( `token` = 'ropkml1405384695' ) AND ( `wecha_id` <> '' ) LIMIT 0,15   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_create` WHERE ( `cardid` = 30 ) AND ( `token` = 'ropkml1405384695' ) AND ( `wecha_id` <> '' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.095006s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: members D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\eb5e875bbb07ce2509fddcc22b3ae4be.php 第 494 行.
+NOTIC: [8] Undefined variable: page D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\eb5e875bbb07ce2509fddcc22b3ae4be.php 第 568 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.096006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.133008s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.134008s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.135008s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.136008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.137008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:59:03+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=index&token=ropkml1405384695
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004001s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\weiwin\Lib\Action\User\Member_cardAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE cardid=30 AND token='ropkml1405384695' AND wecha_id!='' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.078004s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 91 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 92 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.078004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.108006s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.109006s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.109006s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.109006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.110006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:59:06+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=members&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.005000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.004001s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE ( `cardid` = 30 ) AND ( `token` = 'ropkml1405384695' ) AND ( `wecha_id` <> '' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_create` WHERE ( `cardid` = 30 ) AND ( `token` = 'ropkml1405384695' ) AND ( `wecha_id` <> '' ) LIMIT 0,15   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_create` WHERE ( `cardid` = 30 ) AND ( `token` = 'ropkml1405384695' ) AND ( `wecha_id` <> '' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.082005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: members D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\eb5e875bbb07ce2509fddcc22b3ae4be.php 第 494 行.
+NOTIC: [8] Undefined variable: page D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\eb5e875bbb07ce2509fddcc22b3ae4be.php 第 568 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.083005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.113007s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.113007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.114007s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.114007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.115007s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:59:08+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=index&token=ropkml1405384695
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.004001s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\weiwin\Lib\Action\User\Member_cardAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.005000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC  [ RunTime:0.001001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE cardid=30 AND token='ropkml1405384695' AND wecha_id!='' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.071004s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 91 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 92 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.072004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.104006s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.105006s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.106006s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.106006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.107006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:59:11+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.002000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.097006s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.098006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.131008s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.132008s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.133008s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.133008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.134008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:59:33+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=index&token=ropkml1405384695
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.005000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\weiwin\Lib\Action\User\Member_cardAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.005001s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE cardid=30 AND token='ropkml1405384695' AND wecha_id!='' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.066004s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 91 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 92 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.105006s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.105006s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.106006s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.107006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.108006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-24T16:59:35+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=create&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.002000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE ( `token` = 'ropkml1405384695' ) AND ( `cardid` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_create` WHERE ( `token` = 'ropkml1405384695' ) AND ( `cardid` = 30 ) LIMIT 0,15   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE ( `token` = 'ropkml1405384695' ) AND ( `cardid` = 30 ) AND ( `wecha_id` <> '' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.096006s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.097006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.140008s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.141009s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.142009s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.142009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.143009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-24T16:59:42+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=create_add&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003001s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.074004s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.124007s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.124007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.125007s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.125007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.126007s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T16:59:48+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=index&token=ropkml1405384695
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003001s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\weiwin\Lib\Action\User\Member_cardAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.002001s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE cardid=30 AND token='ropkml1405384695' AND wecha_id!='' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.082005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 91 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 92 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.114007s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.115007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.116007s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.116007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.117007s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-24T16:59:52+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=privilege&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.004000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_member_card_vip` WHERE ( `token` = 'ropkml1405384695' ) AND ( `cardid` = 30 ) ORDER BY id desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.118007s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: page D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\0c6a82caf1ef6bafa8f453cc331ee0e1.php 第 488 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.119007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.166010s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.167010s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.168010s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.168010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.169010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-24T16:59:53+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=privilege_add&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003001s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.002000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.002000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: thisItem D:\xampp\htdocs\wei\weiwin\Lib\Action\User\Member_cardAction.class.php 第 835 行.
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.061003s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.101005s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.102005s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.102005s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.103006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.103006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T17:00:04+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=staff&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.005000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.004001s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_company_staff` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_company_staff` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_company` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_company` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.103005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.105006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.163009s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.164009s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.165009s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.165009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.166009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T17:00:14+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=index&token=ropkml1405384695
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.006000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.004000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.001001s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\weiwin\Lib\Action\User\Member_cardAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE cardid=30 AND token='ropkml1405384695' AND wecha_id!='' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.140008s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 91 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 92 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.141008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.174010s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.175010s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.175010s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.176010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.176010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T17:00:20+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=members&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.006000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.005000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.005000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.002000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE ( `cardid` = 30 ) AND ( `token` = 'ropkml1405384695' ) AND ( `wecha_id` <> '' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_member_card_create` WHERE ( `cardid` = 30 ) AND ( `token` = 'ropkml1405384695' ) AND ( `wecha_id` <> '' ) LIMIT 0,15   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_create` WHERE ( `cardid` = 30 ) AND ( `token` = 'ropkml1405384695' ) AND ( `wecha_id` <> '' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.113006s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: members D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\eb5e875bbb07ce2509fddcc22b3ae4be.php 第 494 行.
+NOTIC: [8] Undefined variable: page D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\eb5e875bbb07ce2509fddcc22b3ae4be.php 第 568 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.115006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.147008s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.148008s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.149008s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.149008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.150008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T17:00:27+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=index&token=ropkml1405384695
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003001s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\weiwin\Lib\Action\User\Member_cardAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.002000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE cardid=30 AND token='ropkml1405384695' AND wecha_id!='' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.064004s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 91 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 92 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.065004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.097006s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.098006s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.098006s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.099006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.099006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T17:00:29+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=index&token=ropkml1405384695
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003001s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\weiwin\Lib\Action\User\Member_cardAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.002000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE cardid=30 AND token='ropkml1405384695' AND wecha_id!='' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.092005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 91 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\wei\data\Conf\logs\Cache\User\ba3c3f438ef637f25cf3b18560e9adbf.php 第 92 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.093005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.123007s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.124007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.124007s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.125007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.125007s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T17:00:32+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=create&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.004000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.005000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE ( `token` = 'ropkml1405384695' ) AND ( `cardid` = 30 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_member_card_create` WHERE ( `token` = 'ropkml1405384695' ) AND ( `cardid` = 30 ) LIMIT 0,15   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wy_member_card_create` WHERE ( `token` = 'ropkml1405384695' ) AND ( `cardid` = 30 ) AND ( `wecha_id` <> '' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.068004s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.099006s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.099006s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.100006s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.100006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.101006s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-24T17:00:35+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=create_add&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.003000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.002000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.077005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.078005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.106007s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.107007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.108007s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.108007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.109007s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-24T17:01:15+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=create_add&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.024001s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.005000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.004000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.004001s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.005000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.005001s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.134008s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.135008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.166010s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.167010s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.168010s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.169010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.171010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T17:01:58+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=create_add&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.006000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.005000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.004001s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.232014s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.233014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.264016s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.265016s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.265016s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.266016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.266016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T17:02:39+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=create_add&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.002001s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.001000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.098005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.098005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.133007s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.135007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.136008s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.137008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.138008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-07-24T17:05:41+08:00 ] 0.0.0.0 /wei/index.php?g=User&m=Member_card&a=design&token=ropkml1405384695&id=30
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\wei\Lib\Core\Action.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `wy_user_group` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `wy_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_users` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `wy_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_wxuser` [ RunTime:0.003000s ]
+SQL: SELECT `wxname`,`wxid`,`headerpic`,`weixin` FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_token_open` [ RunTime:0.002000s ]
+SQL: SELECT `queryname` FROM `wy_token_open` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wy_wxuser` WHERE ( `token` = 'ropkml1405384695' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `allcardnum`=null WHERE ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: UPDATE `wy_wxuser` SET `cardisok`=0 WHERE ( `uid` = 1 ) AND ( `token` = 'ropkml1405384695' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_set` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_create` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `wy_member_card_set` WHERE ( `token` = 'ropkml1405384695' ) ORDER BY id ASC LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wy_member_card_create` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_exchange` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_exchange` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_coupon` [ RunTime:0.003000s ]
+SQL: UPDATE `wy_member_card_coupon` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_vip` [ RunTime:0.003001s ]
+SQL: UPDATE `wy_member_card_vip` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wy_member_card_integral` [ RunTime:0.004000s ]
+SQL: UPDATE `wy_member_card_integral` SET `cardid`=30 WHERE token='ropkml1405384695' AND cardid=0 [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\xampp\htdocs\wei\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.081005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.116007s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.117007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.117007s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.118007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.118007s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
